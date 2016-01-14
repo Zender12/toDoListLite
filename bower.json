@@ -1,0 +1,19 @@
+{
+  "name": "todo",
+  "description": "",
+  "main": "app.module.js",
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Materialize": "materialize#~0.97.5",
+    "angular": "~1.4.8"
+  }
+}
