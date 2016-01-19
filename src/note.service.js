@@ -1,6 +1,6 @@
 (function(){
 	angular.module('app')
-		.factory('NoteService', function($http)
+		.factory('NoteService', function()
 		{
 
 			var notes = [
@@ -11,7 +11,7 @@
  			{title: 'Note 5', content: 'Note 5 text'},
  			{title: 'Note 6', content: 'Note 6 text'},
  			{title: 'Note 7', content: 'Note 7 text'}
- 		];
+ 			];
 
 			return {
 				getNotes: getNotes,
